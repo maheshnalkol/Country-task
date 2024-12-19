@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Task</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <section class="heroImg">
+        <div class="container-fluid">
+            <header class="header text-center">
+                <h1 class="heading">world countries data</h1>
+                <h2 class="heading-sec">Currently, we have 250 countries data</h2>
+            </header>
+            <div class=" col-lg-6 offset-lg-3 col-md-6  offset-md-3 d-flex justify-content-center">
+                <input type="text" class="form-control custom-form" id="searchBar"
+                    placeholder="Search countires by name, city and languages">
+            </div>
+            <div class="col-md-8 offset-2 d-flex justify-content-center">
+                <div class="btn custom-btn default" id="sortName">Name</div>
+                <div class="btn custom-btn default" id="sortCapital">Capital</div>
+                <div class="btn custom-btn default" id="sortPopulation">Population</div>
+                <a href="#graphData"><i class="fa-solid fa-chart-column" style="font-size: 40px;"></i></a>
+            </div>
+        </div>
+    </section>
+    <section class="mainSection">
+        <div class="row d-flex justify-content-center m-1" id="showcard">
+    
+        </div>
+    </section>
+
+    <section class="lastSection">
+        <div class="conatiner-fluid text-center">
+            <h1><span class="spanHead">Popluation</span> <span class="spanHead">Languages</span></h1>
+        </div>
+        <div class="graph" id="graphData" style="font-weight: bold; font-size: 72px;">
+            Graph
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+    <script src="./assets/js/countryData.js"></script>
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
